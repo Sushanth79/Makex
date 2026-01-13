@@ -11,9 +11,9 @@
 #include <type_traits>
 #include <vector>
 
-#include "gundam/algorithm/dp_iso.h"
-#include "gundam/component/timer.h"
-#include "gundam/match/match.h"
+#include "../algorithm/dp_iso.h"
+#include "../component/timer.h"
+#include "../match/match.h"
 #include "match_semantics.h"
 
 namespace GUNDAM {

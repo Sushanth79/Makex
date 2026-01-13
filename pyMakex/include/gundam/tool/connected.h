@@ -1,9 +1,9 @@
 #ifndef _GUNDAM_TOOL_CONNECTED_H
 #define _GUNDAM_TOOL_CONNECTED_H
 
-#include "gundam/algorithm/dfs.h"
+#include "../algorithm/dfs.h"
 
-#include "gundam/type_getter/vertex_handle.h"
+#include "../type_getter/vertex_handle.h"
 
 namespace GUNDAM {
 

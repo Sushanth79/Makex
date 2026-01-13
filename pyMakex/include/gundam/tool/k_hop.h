@@ -1,9 +1,9 @@
 #ifndef _GUNDAM_TOOL_K_HOP_H
 #define _GUNDAM_TOOL_K_HOP_H
 
-#include "gundam/algorithm/bfs.h"
+#include "../algorithm/bfs.h"
 
-#include "gundam/type_getter/vertex_handle.h"
+#include "../type_getter/vertex_handle.h"
 
 namespace GUNDAM {
 

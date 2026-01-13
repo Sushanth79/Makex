@@ -1,7 +1,7 @@
 #ifndef _GUNDAM_COMPONENT_UTIL_H
 #define _GUNDAM_COMPONENT_UTIL_H
 
-#include <gundam/data_type/datatype.h>
+#include <../data_type/datatype.h>
 
 #include <iostream>
 namespace GUNDAM {

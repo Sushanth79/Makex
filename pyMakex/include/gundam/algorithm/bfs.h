@@ -5,8 +5,8 @@
 #include <set>
 #include <type_traits>
 
-#include "gundam/type_getter/vertex_handle.h"
-#include "gundam/type_getter/edge_handle.h"
+#include "../type_getter/vertex_handle.h"
+#include "../type_getter/edge_handle.h"
 
 namespace GUNDAM {
 

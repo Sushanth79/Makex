@@ -6,16 +6,16 @@
 #include <string>
 #include <vector>
 
-#include "gundam/component/container2.h"
-#include "gundam/component/iterator2.h"
-#include "gundam/component/pointer.h"
+#include "../component/container2.h"
+#include "../component/iterator2.h"
+#include "../component/pointer.h"
 
-#include "gundam/type_getter/vertex_handle.h"
-#include "gundam/type_getter/edge_handle.h"
-#include "gundam/type_getter/vertex_attribute_handle.h"
-#include "gundam/type_getter/edge_attribute_handle.h"
+#include "../type_getter/vertex_handle.h"
+#include "../type_getter/edge_handle.h"
+#include "../type_getter/vertex_attribute_handle.h"
+#include "../type_getter/edge_attribute_handle.h"
 
-#include "gundam/serialize/serialize.h"
+#include "../serialize/serialize.h"
 
 namespace GUNDAM {
 

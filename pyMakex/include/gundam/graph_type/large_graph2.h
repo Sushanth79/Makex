@@ -1,14 +1,14 @@
 #ifndef _GUNDAM_GRAPH_TYPE_LARGE_GRAPH2_H
 #define _GUNDAM_GRAPH_TYPE_LARGE_GRAPH2_H
 
-#include "gundam/component/attribute.h"
-#include "gundam/component/container2.h"
-#include "gundam/component/iterator2.h"
-#include "gundam/serialize/serialize.h"
-#include "gundam/type_getter/edge_attribute_handle.h"
-#include "gundam/type_getter/edge_handle.h"
-#include "gundam/type_getter/vertex_attribute_handle.h"
-#include "gundam/type_getter/vertex_handle.h"
+#include "../component/attribute.h"
+#include "../component/container2.h"
+#include "../component/iterator2.h"
+#include "../serialize/serialize.h"
+#include "../type_getter/edge_attribute_handle.h"
+#include "../type_getter/edge_handle.h"
+#include "../type_getter/vertex_attribute_handle.h"
+#include "../type_getter/vertex_handle.h"
 
 namespace GUNDAM {
 

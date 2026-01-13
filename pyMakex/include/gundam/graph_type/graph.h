@@ -1,24 +1,24 @@
 #ifndef _GUNDAM_GRAPH_TYPE_GRAPH_H
 #define _GUNDAM_GRAPH_TYPE_GRAPH_H
 
-#include "gundam/data_type/datatype.h"
-#include "gundam/data_type/datetime.h"
-#include "gundam/data_type/label.h"
+#include "../data_type/datatype.h"
+#include "../data_type/datetime.h"
+#include "../data_type/label.h"
 
-#include "gundam/graph_type/graph_configure.h"
+#include "../graph_type/graph_configure.h"
 
-#include "gundam/component/attribute.h"
-#include "gundam/component/iterator.h"
-#include "gundam/component/generator.h"
-#include "gundam/component/container.h"
+#include "../component/attribute.h"
+#include "../component/iterator.h"
+#include "../component/generator.h"
+#include "../component/container.h"
 
-#include "gundam/type_getter/vertex_handle.h"
-#include "gundam/type_getter/edge_handle.h"
-#include "gundam/type_getter/vertex_attribute_handle.h"
-#include "gundam/type_getter/edge_attribute_handle.h"
-#include "gundam/type_getter/graph_type.h"
+#include "../type_getter/vertex_handle.h"
+#include "../type_getter/edge_handle.h"
+#include "../type_getter/vertex_attribute_handle.h"
+#include "../type_getter/edge_attribute_handle.h"
+#include "../type_getter/graph_type.h"
 
-#include "gundam/serialize/serialize.h"
+#include "../serialize/serialize.h"
 
 #include <iostream>
 #include <set>

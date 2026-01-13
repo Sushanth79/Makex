@@ -1,7 +1,7 @@
 #ifndef _GUNDAM_TOOL_MERGE_BY_ID_H
 #define _GUNDAM_TOOL_MERGE_BY_ID_H
 
-#include "gundam/match/match.h"
+#include "../match/match.h"
 
 namespace GUNDAM {  
 

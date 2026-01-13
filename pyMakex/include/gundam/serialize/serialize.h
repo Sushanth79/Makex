@@ -3,9 +3,9 @@
 
 #include <string>
 
-#include "gundam/data_type/datatype.h"
-#include "gundam/type_getter/edge_handle.h"
-#include "gundam/type_getter/vertex_handle.h"
+#include "../data_type/datatype.h"
+#include "../type_getter/edge_handle.h"
+#include "../type_getter/vertex_handle.h"
 namespace GUNDAM {
 
 template <typename GraphType>

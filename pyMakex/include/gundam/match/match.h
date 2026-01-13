@@ -9,11 +9,11 @@
 #include <sstream>
 #include <fstream>
 
-#include "gundam/component/container.h"
-#include "gundam/component/iterator.h"
+#include "../component/container.h"
+#include "../component/iterator.h"
 
-#include "gundam/type_getter/vertex_handle.h"
-#include "gundam/data_type/datatype.h"
+#include "../type_getter/vertex_handle.h"
+#include "../data_type/datatype.h"
 
 namespace GUNDAM {
 

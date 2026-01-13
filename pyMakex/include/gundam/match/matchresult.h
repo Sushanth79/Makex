@@ -2,7 +2,7 @@
 #define _GUNDAM_MATCH_MATCHRESULT_H
 #include <ostream>
 
-#include "gundam/match/match.h"
+#include "../match/match.h"
 
 namespace GUNDAM{
 

@@ -7,11 +7,11 @@
 #include <sstream>
 #include <string>
 
-#include "gundam/component/generator.h"
-#include "gundam/data_type/datatype.h"
-#include "gundam/io/rapidcsv.h"
-#include "gundam/type_getter/edge_handle.h"
-#include "gundam/type_getter/vertex_handle.h"
+#include "../component/generator.h"
+#include "../data_type/datatype.h"
+#include "../io/rapidcsv.h"
+#include "../type_getter/edge_handle.h"
+#include "../type_getter/vertex_handle.h"
 
 namespace GUNDAM {
 

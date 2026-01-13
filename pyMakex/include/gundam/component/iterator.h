@@ -1,7 +1,7 @@
 #ifndef _GUNDAM_COMPONENT_ITERATOR_H
 #define _GUNDAM_COMPONENT_ITERATOR_H
 
-#include "gundam/component/container.h"
+#include "../component/container.h"
 
 namespace GUNDAM {
 
