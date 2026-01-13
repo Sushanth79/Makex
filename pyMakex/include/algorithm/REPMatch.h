@@ -13,13 +13,13 @@
 #include <chrono>
 #include <unordered_set>
 #include <boost/functional/hash.hpp>
-#include "../include/gundam/algorithm/dp_iso.h"
-#include "../include/gundam/type_getter/vertex_handle.h"
+#include "../gundam/algorithm/dp_iso.h"
+#include "../gundam/type_getter/vertex_handle.h"
 #include "../structure/REP.h"
-#include "../include/structure/Predicate.h"
-#include "../include/gundam/match/matchresult.h"
-#include "../include/gundam/component/util.h"
-#include "../include/gundam/algorithm/vf2.h"
+#include "../structure/Predicate.h"
+#include "../gundam/match/matchresult.h"
+#include "../gundam/component/util.h"
+#include "../gundam/algorithm/vf2.h"
 
 using MyCompare = std::function<bool(std::pair<double, std::map<int, int>>, std::pair<double, std::map<int, int>>)>;
 
