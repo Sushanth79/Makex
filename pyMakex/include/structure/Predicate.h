@@ -737,4 +737,5 @@ class ConstantPredicate : public Predicate<Pattern, DataGraph> {
     return true;
   }
 };
-}#endif
+}
+#endif

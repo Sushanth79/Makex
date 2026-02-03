@@ -266,6 +266,7 @@ def main(args):
 
     subgraph_path = args.subgraph_path
     subgraph_pivot_path = args.subgraph_pivot_path
+    edge_label_reverse_csv = args.edge_label_reverse_csv
 
     max_degree = args.max_degree
     max_length = args.max_length
@@ -273,7 +274,7 @@ def main(args):
 
     hop_decay_factor = args.hop_decay_factor
 
-    explain_graph_data = read_subgraph(subgraph_path, subgraph_pivot_path)
+    explain_graph_data = read_subgraph(subgraph_path, subgraph_pivot_path, edge_label_reverse_csv)
 
     gen_pattern_list = []
     Score_Q_dict = {}
@@ -283,7 +284,7 @@ def main(args):
         neighbors_dict = explain_graph_data[graph_id]['neighbors_dict']
         node_type = explain_graph_data[graph_id]['node_type']
         edge_type_dict = explain_graph_data[graph_id]['edge_type_dict']
-        edge_type_label_dict = explain_graph_data[graph_id]['edge_type_label_dict']
+        #edge_type_label_dict = explain_graph_data[graph_id]['edge_type_label_dict']
 
 
 
@@ -291,7 +292,7 @@ def main(args):
             star_x, star_y = random_walk_degree_length(neighbors_dict, pivot_x, pivot_y, max_degree, max_length)
 
             score_Q = Score_Q(star_x, hop_decay_factor) + Score_Q(star_y, hop_decay_factor)
-            pattern = SubgraphToPattern(star_x, star_y, node_type, edge_type_dict, edge_type_label_dict, pivot_x, pivot_y)
+            pattern = SubgraphToPattern(star_x, star_y, node_type, edge_type_dict, pivot_x, pivot_y)
 
             if pattern is not None:
                 gen_pattern_list.append(pattern)

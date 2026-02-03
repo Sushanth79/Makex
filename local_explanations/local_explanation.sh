@@ -48,7 +48,7 @@ python ./local_explanation.py \
 --v_path ../DataSets/Movielens/original_graph/movielens_v.csv \
 --e_path ../DataSets/Movielens/original_graph/movielens_e.csv \
 --subgraph_path ../DataSets/Movielens/subgraph_by_subgraphx/hgt/explain_sgs_largeuser.csv \
---subgraph_pivot_path ../DataSets/Movielens/subgraph_by_subgraphx/hgt/explain_sgs_prop_largeuser.csv \ 
+--subgraph_pivot_path ../DataSets/Movielens/subgraph_by_subgraphx/hgt/explain_sgs_prop_largeuser.csv \
 --ml_path ../DataSets/Movielens/train_test/train.log \
 --delta_l 0.0  --delta_r 1.0 \
 --tie_num 100 \
